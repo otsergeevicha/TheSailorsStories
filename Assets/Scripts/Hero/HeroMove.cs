@@ -1,3 +1,4 @@
+using CameraLogic;
 using Infrastructure;
 using Services.Input;
 using UnityEngine;
@@ -21,6 +22,8 @@ namespace Hero
         private void Start()
         {
             _camera = Camera.main;
+
+            CameraFollow();
         }
 
         private void Update()
@@ -44,5 +47,7 @@ namespace Hero
 
             _characterController.Move(_movementSpeed * movementVector * Time.deltaTime);
         }
+        
+        private void CameraFollow() => _camera.GetComponent<CameraFollow>().Follow(gameObject);
     }
 }
