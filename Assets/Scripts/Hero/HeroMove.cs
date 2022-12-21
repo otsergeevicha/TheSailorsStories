@@ -19,13 +19,9 @@ namespace Hero
             _inputService = Game.InputService;
         }
 
-        private void Start()
-        {
+        private void Start() => 
             _camera = Camera.main;
-
-            CameraFollow();
-        }
-
+        
         private void Update()
         {
             _animationOperator.Idle();
@@ -39,7 +35,6 @@ namespace Hero
                 movementVector = _camera.transform.TransformDirection(_inputService.Axis);
                 movementVector.y = 0;
                 movementVector.Normalize();
-
                 transform.forward = movementVector;
             }
 
@@ -47,7 +42,5 @@ namespace Hero
 
             _characterController.Move(_movementSpeed * movementVector * Time.deltaTime);
         }
-        
-        private void CameraFollow() => _camera.GetComponent<CameraFollow>().Follow(gameObject);
     }
 }
