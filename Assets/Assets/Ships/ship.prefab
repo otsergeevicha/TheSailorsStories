@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2769041532742279043}
   - component: {fileID: 110738222874159945}
   m_Layer: 0
-  m_Name: ship
+  m_Name: ship to delete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -251,7 +251,7 @@ MonoBehaviour:
   renderQueueIndex: 0
   color: {r: 0, g: 0.7993096, b: 0.8490566, a: 0.69803923}
   specColor: {r: 0, g: 0.4056604, b: 0.4056604, a: 1}
-  smoothness: 0.833
+  smoothness: 1
   enableLightAbsorption: 1
   depthColor: {r: 0, g: 0.5619744, b: 0.6226415, a: 1}
   maxDepth: 8
@@ -267,9 +267,9 @@ MonoBehaviour:
   slopeFoamStrength: 0
   slopeFoamFlowSpeed: 0
   slopeFoamDistance: 0
-  rippleHeight: 1
-  rippleSpeed: 0.2
-  rippleNoiseScale: 25.24
+  rippleHeight: 0
+  rippleSpeed: 0
+  rippleNoiseScale: 0
   enableWave: 1
   waveDirection: 212
   waveSpeed: 30.8
@@ -277,9 +277,9 @@ MonoBehaviour:
   waveLength: 631.6
   waveSteepness: 0.185
   waveDeform: 0.113
-  fresnelStrength: 4.08
+  fresnelStrength: 2
   fresnelBias: 0.045
-  enableReflection: 1
+  enableReflection: 0
   reflectionTextureResolution: 512
   enableReflectionPixelLight: 0
   reflectionClipPlaneOffset: 7.2
@@ -288,7 +288,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   reflectCustomSkybox: 1
   reflectionDistortionStrength: 50
-  enableRefraction: 1
+  enableRefraction: 0
   refractionDistortionStrength: 0
   enableCaustic: 0
   causticTexture: {fileID: 2800000, guid: eeacbffe8eb46d343b0d7a9189130772, type: 3}
