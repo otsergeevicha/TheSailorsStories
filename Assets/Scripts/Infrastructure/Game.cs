@@ -1,23 +1,16 @@
+using Logic;
 using Services.Input;
-using UnityEngine;
 
 namespace Infrastructure
 {
     public class Game
     {
         public static IInputService InputService;
-
-        public Game()
+        public GameStateMachine StateMachine;
+        
+        public Game(ICoroutineRunner coroutineRunner, LoadingCurtain loadingCurtain)
         {
-            RegisterInputService();
-        }
-
-        private static void RegisterInputService()
-        {
-            if(Application.isEditor)
-                InputService = new StandaloneInputService();
-            else
-                InputService = new MobileInputService();
+            StateMachine = new GameStateMachine(new SceneLoader(coroutineRunner), loadingCurtain);
         }
     }
 }
