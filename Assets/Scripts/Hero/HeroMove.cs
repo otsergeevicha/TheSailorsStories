@@ -38,7 +38,7 @@ namespace Hero
                 transform.forward = movementVector;
             }
 
-            movementVector += Physics.gravity * Time.deltaTime;
+            movementVector += Physics.gravity;
 
             _characterController.Move(_movementSpeed * movementVector * Time.deltaTime);
         }
