@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SailorStories
-    second: {fileID: 2100000, guid: f048a20830ddb464aba274319f43cf33, type: 2}
+    second: {fileID: 2100000, guid: 7ee7ce1ea1060e34e8af568dd80cfa69, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
