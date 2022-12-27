@@ -1,5 +1,6 @@
 using CameraLogic;
 using Infrastructure;
+using Infrastructure.Services;
 using Services.Input;
 using UnityEngine;
 
@@ -14,10 +15,8 @@ namespace Hero
         private IInputService _inputService;
         private Camera _camera;
 
-        private void Awake()
-        {
-            _inputService = Game.InputService;
-        }
+        private void Awake() => 
+            _inputService = AllServices.Container.Single<IInputService>();
 
         private void Start() => 
             _camera = Camera.main;
