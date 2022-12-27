@@ -1,24 +1,26 @@
 using System;
 using System.Collections.Generic;
+using Infrastructure.Factory;
+using Infrastructure.Services;
 using Logic;
 
-namespace Infrastructure
+namespace Infrastructure.States
 {
     public class GameStateMachine
     {
-        private Dictionary<Type,IExitableState> _states;
+        private Dictionary<Type, IExitableState> _states;
         private IExitableState _activeState;
 
-        public GameStateMachine(SceneLoader sceneLoader, LoadingCurtain loadingCurtain)
+        public GameStateMachine(SceneLoader sceneLoader, LoadingCurtain loadingCurtain, AllServices services)
         {
             _states = new Dictionary<Type, IExitableState>()
             {
-                [typeof(BootstrapState)] = new BootstrapState(this, sceneLoader),
-                [typeof(LoadLevelState)] = new LoadLevelState(this, sceneLoader, loadingCurtain),
-                    [typeof(GameLoopState)] = new GameLoopState(this)
+                [typeof(BootstrapState)] = new BootstrapState(this, sceneLoader, services),
+                [typeof(LoadLevelState)] = new LoadLevelState(this, sceneLoader, loadingCurtain, services.Single<IGameFactory>()),
+                [typeof(GameLoopState)] = new GameLoopState(this)
             };
         }
-        
+
         public void Enter<TState>() where TState : class, IState
         {
             IState state = ChangeState<TState>();
@@ -34,14 +36,14 @@ namespace Infrastructure
         private TState ChangeState<TState>() where TState : class, IExitableState
         {
             _activeState?.Exit();
-            
+
             TState state = GetState<TState>();
             _activeState = state;
-            
+
             return state;
         }
 
-        private TState GetState<TState>() where TState : class, IExitableState => 
+        private TState GetState<TState>() where TState : class, IExitableState =>
             _states[typeof(TState)] as TState;
     }
 }
