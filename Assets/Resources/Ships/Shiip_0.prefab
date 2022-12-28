@@ -405,7 +405,6 @@ GameObject:
   - component: {fileID: 7944136645433566291}
   - component: {fileID: 1180551277208094522}
   - component: {fileID: 6202953574549643119}
-  - component: {fileID: 6339753214487439764}
   m_Layer: 0
   m_Name: manhole_0
   m_TagString: Untagged
@@ -478,19 +477,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6339753214487439764
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3774229520772042109}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 13.709656, y: 10.218498, z: 14.45829}
-  m_Center: {x: -25.65739, y: 29.197582, z: -0.32298374}
 --- !u!1 &4296418733084216471
 GameObject:
   m_ObjectHideFlags: 0

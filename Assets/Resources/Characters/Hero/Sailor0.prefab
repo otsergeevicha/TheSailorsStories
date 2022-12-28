@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterController: {fileID: 2666055659030816530}
-  _movementSpeed: 10
+  _movementSpeed: 20
   _animationOperator: {fileID: 225788874678322568}
 --- !u!114 &225788874678322568
 MonoBehaviour:
