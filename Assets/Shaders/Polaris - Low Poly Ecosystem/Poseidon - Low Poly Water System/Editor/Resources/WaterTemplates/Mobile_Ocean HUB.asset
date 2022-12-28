@@ -261,7 +261,7 @@ MonoBehaviour:
   enableFoamHQ: 1
   foamNoiseScaleHQ: 0.2
   foamNoiseSpeedHQ: 0.79
-  shorelineFoamStrength: 0.05
+  shorelineFoamStrength: 0
   crestFoamStrength: 0
   crestMaxDepth: 10
   slopeFoamStrength: 0
@@ -288,10 +288,10 @@ MonoBehaviour:
     m_Bits: 4294967295
   reflectCustomSkybox: 1
   reflectionDistortionStrength: 50
-  enableRefraction: 1
+  enableRefraction: 0
   refractionDistortionStrength: 0
   enableCaustic: 0
   causticTexture: {fileID: 2800000, guid: eeacbffe8eb46d343b0d7a9189130772, type: 3}
   causticSize: 10
-  causticStrength: 0.34
+  causticStrength: 0.59
   causticDistortionStrength: 5
