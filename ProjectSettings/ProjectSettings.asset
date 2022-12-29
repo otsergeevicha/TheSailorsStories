@@ -806,7 +806,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Android: POSEIDON
-    Standalone: POSEIDON;POSEIDON_URP
+    Standalone: POSEIDON;POSEIDON_URP;AMPLIFY_SHADER_EDITOR
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
