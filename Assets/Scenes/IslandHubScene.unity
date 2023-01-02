@@ -665,6 +665,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: chest
       objectReference: {fileID: 0}
+    - target: {fileID: 6512248415142725073, guid: aae72a8ebb384d94793925ec4147e678, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9299278
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512248415142725073, guid: aae72a8ebb384d94793925ec4147e678, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.36774227
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512248415142725073, guid: aae72a8ebb384d94793925ec4147e678, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.000000029802319
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512248415142725073, guid: aae72a8ebb384d94793925ec4147e678, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00000004470348
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512248415142725073, guid: aae72a8ebb384d94793925ec4147e678, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 43.153
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aae72a8ebb384d94793925ec4147e678, type: 3}
 --- !u!1 &1377159098
