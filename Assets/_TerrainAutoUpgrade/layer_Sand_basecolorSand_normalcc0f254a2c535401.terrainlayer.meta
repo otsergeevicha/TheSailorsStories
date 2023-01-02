@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 1b3544b4653bf8c488e1b3fd28cd3821
+=======
+guid: dd0bdf6e85e130d42ba55c4b2ad05295
+>>>>>>> origin/Kirill
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 8574412962073106934
