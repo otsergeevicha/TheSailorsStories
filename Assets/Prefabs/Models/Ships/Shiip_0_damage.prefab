@@ -12,7 +12,11 @@ GameObject:
   - component: {fileID: 6306746546657761925}
   - component: {fileID: 8098289995869449807}
   m_Layer: 0
+<<<<<<< HEAD:Assets/Prefabs/Models/Ships/Shiip_0_damage.prefab
   m_Name: Shiip_0_damage
+=======
+  m_Name: ship to delete
+>>>>>>> ed578a46184deb7a5581099f8d563b1065c5565e:Assets/Assets/Ships/ship.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

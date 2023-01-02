@@ -67,9 +67,15 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+<<<<<<< HEAD:Assets/Textures/TextrureAtlasTSS.png.meta
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+=======
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: 3
+>>>>>>> ed578a46184deb7a5581099f8d563b1065c5565e:Assets/Assets/Textures/TextrureAtlasTSS.png.meta
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Resources/Models/Houses/Wooden_house_1.fbx.meta
 guid: 04c7bd1622089004b81259a748df2fc2
+=======
+guid: 25b1cbd433131384ba0624a3bc5147b5
+>>>>>>> ed578a46184deb7a5581099f8d563b1065c5565e:Assets/Assets/Buildings/HUB Basic.fbx.meta
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -8,7 +12,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SailorStories
+<<<<<<< HEAD:Assets/Resources/Models/Houses/Wooden_house_1.fbx.meta
     second: {fileID: 2100000, guid: 7ee7ce1ea1060e34e8af568dd80cfa69, type: 2}
+=======
+    second: {fileID: 7416945564659237872, guid: e2091e1f640623046a8330a66d3fba03, type: 3}
+>>>>>>> ed578a46184deb7a5581099f8d563b1065c5565e:Assets/Assets/Buildings/HUB Basic.fbx.meta
   materials:
     materialImportMode: 2
     materialName: 0
@@ -40,7 +48,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 15
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -93,7 +101,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 15
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
