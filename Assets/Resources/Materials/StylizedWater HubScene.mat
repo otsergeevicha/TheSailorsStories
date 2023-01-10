@@ -85,6 +85,6 @@ Material:
     - _DepthGradient2: {r: 0, g: 0.57468396, b: 0.6886792, a: 1}
     - _DepthGradient3: {r: 0, g: 0.6311476, b: 0.7264151, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelColor: {r: 0, g: 0.3471678, b: 0.75471693, a: 1}
+    - _FresnelColor: {r: 0, g: 0.34716263, b: 0.75471693, a: 1}
     - _ShadowColor: {r: 0.009191178, g: 0.033871744, b: 0.125, a: 1}
   m_BuildTextureStacks: []
